@@ -13,6 +13,10 @@
       "section": "Setup",
       "topics": [
         {
+          "title": "New Topic 2",
+          "slug": "new-topic-2"
+        },
+        {
           "title": "New Topic 1",
           "slug": "new-topic-1"
         },
