@@ -1,6 +1,15 @@
 {
   "sidebar": [
     {
+      "section": "Newest Sidebar Test",
+      "topics": [
+        {
+          "title": "My Topic",
+          "slug": "my-topic"
+        }
+      ]
+    },
+    {
       "section": "Introduction",
       "topics": [
         {
