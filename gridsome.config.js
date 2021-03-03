@@ -1,4 +1,4 @@
-// This is where project configuration and plugin options are located. 
+// This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 
 // Changes here require a server restart.
@@ -37,7 +37,7 @@ module.exports = {
     {
       use: '@gridsome/plugin-google-analytics',
       options: {
-        id: (process.env.GA_ID ? process.env.GA_ID : 'XX-999999999-9')
+        id: (process.env.GA_ID ? process.env.GA_ID : 'UA-29484216-21')
       }
     },
     {
@@ -52,4 +52,3 @@ module.exports = {
     types.forEach(type => addStyleResource(config.module.rule('scss').oneOf(type)))
   }
 }
-
